@@ -1,0 +1,31 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:3000",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "FORGE_CLIENT_SECRET": "lUNj0AbduUdI8oiv",
+        "ASPNETCORE_URLS": "http://localhost:3000",
+        "FORGE_CLIENT_ID": "5sQahnUPX3dfmOHsFohGNQVrPvZ3mnZH",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "FORGE_WEBHOOK_URL": "http://90059a45.ngrok.io"
+      }
+    },
+    "forgeSample": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    }
+  }
+}
